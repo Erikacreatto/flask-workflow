@@ -24,6 +24,10 @@ def contato():
 def cadastro_livro():
     return "Formulário de cadastro de livros"
 
+@app.route("/emprestimo")
+def sobre():
+    return "Livros emprestados"
+
 
 
 if __name__ == "__main__":
